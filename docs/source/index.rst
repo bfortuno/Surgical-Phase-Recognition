@@ -20,4 +20,4 @@ Contents
    :caption: Notebooks
    :maxdepth: 2
 
-   notebooks/01_python_basics.ipynb
+   notebooks/01_python_basics
