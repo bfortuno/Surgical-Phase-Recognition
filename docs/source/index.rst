@@ -17,11 +17,6 @@ Contents
 --------
 
 .. toctree::
-
-   usage
-   api
-
-.. toctree::
    :caption: Notebooks
    :maxdepth: 2
 
