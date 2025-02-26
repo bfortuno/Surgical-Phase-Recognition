@@ -1,110 +1,84 @@
-.. Surgical Task Identification documentation master file
+.. notebook_test documentation master file, created by
+   sphinx-quickstart on Sat Jul 25 11:56:56 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-Welcome to the Surgical Task Identification Tutorials!
-======================================================
+Welcome to the Surgical Phase Recognition Project!
+===========================================
 
-| **Repository**: https://github.com/bfortuno/Surgical-Phase-Recognition
-| **Author**: Benjamin I. Fortuno
-| **Google Colab Notebooks**: Click on the tutorial links to open them interactively!
+| *Repository*: https://github.com/bfortuno/Surgical-Phase-Recognition
+| *Author*: Benjamin I. Fortuno
 
-For this project, we have created a structured series of **Jupyter notebooks** designed to teach deep learning techniques for **surgical phase recognition**. These tutorials provide a practical approach to applying **computer vision, time-series modeling, and deep learning frameworks** to surgical task identification.
+As part of this **BSc project**, we have created a structured series of **Jupyter notebooks** designed to guide students through the **testing and evaluation of neural networks for surgical phase recognition**. These tutorials provide a **hands-on approach** to understanding key deep learning concepts through **practical implementation**.
 
-We will explore various techniques such as:
-- **Convolutional Neural Networks (CNNs)** for feature extraction.
-- **Recurrent Neural Networks (RNNs) & Temporal Convolutional Networks (TCNs)** for time-series analysis.
-- **Transformers & Multi-Head Attention** for sequence modeling.
-- **Optimization techniques** and **model evaluation** for real-world performance.
+Throughout this project, we will explore topics such as:
+- **Optimization techniques** for training deep learning models.
+- **Transformers and self-attention mechanisms** for sequence modeling.
+- **Graph Neural Networks (GNNs)** and their applications in surgical phase recognition.
+- **Model evaluation and performance benchmarking** in real-world surgical datasets.
 
-The notebooks aim to bridge the gap between theoretical concepts and real-world implementation using **PyTorch** and **Google Colab**.
+Each notebook is designed to **complement theoretical knowledge** by demonstrating **real-world implementations** using **PyTorch** and **PyTorch Lightning**. These materials serve as a foundation for students to **analyze, test, and optimize different neural architectures** for surgical phase recognition.
 
----
+The notebooks are introduced in **guided tutorial sessions**, where the **content and implementation details** are explained step by step. Students can choose to:
+- Simply **review the pre-filled notebooks** for theoretical understanding.
+- **Modify and experiment** with different configurations and training setups.
+- **Code along during sessions** to gain practical experience.
 
-Schedule (Surgical Task Recognition Tutorials - 2024)
-------------------------------------------------------
+The notebooks are **not directly part of any graded assignments**, but students are encouraged to **experiment, modify, and extend them** to develop a **deeper understanding of model testing and evaluation**. The knowledge gained from these tutorials will be **highly relevant for the final project assessment**.
+
+Additionally, these tutorials integrate **best practices from PyTorch Lightning**, making it easier to **train, validate, and deploy models efficiently**. More information about PyTorch Lightning can be found in **[their official documentation](https://pytorch-lightning.readthedocs.io/en/latest/)**.
+
+Schedule (Deep Learning 1, edition 2024)
+----------------------------------------
 
 +------------------------------------------+---------------------------------------------------------------+
 | **Date**                                 | **Notebook**                                                  |
 +------------------------------------------+---------------------------------------------------------------+
-| Monday, 4. March 2024, 15:00-16:00       | Tutorial 1: Introduction to Python & PyTorch                  |
+| Tuesday, 29. October 2024, 09:00-10:00   | Tutorial 2: Introduction to PyTorch                           |
 +------------------------------------------+---------------------------------------------------------------+
-| Monday, 11. March 2024, 15:00-16:00      | Tutorial 2: Image Processing with OpenCV                      |
+| Monday, 4. November 2024, 15:00-16:00    | Tutorial 3: Activation functions                              |
 +------------------------------------------+---------------------------------------------------------------+
-| Monday, 18. March 2024, 15:00-16:00      | Tutorial 3: CNNs for Surgical Data Analysis                   |
+| Monday, 11. November 2024, 15:00-16:00   | Tutorial 4: Optimization and Initialization                   |
 +------------------------------------------+---------------------------------------------------------------+
-| Monday, 25. March 2024, 15:00-16:00      | Tutorial 4: RNNs & LSTMs for Time-Series Modeling             |
+| Monday, 18. November 2024, 15:00-16:00   | Tutorial 5: Inception, ResNet and DenseNet                    |
 +------------------------------------------+---------------------------------------------------------------+
-| Monday, 1. April 2024, 15:00-16:00       | Tutorial 5: Transformers for Surgical Phase Recognition       |
+| Monday, 25. November 2024, 15:00-16:00   | Tutorial 6: Transformers and Multi-Head Attention             |
 +------------------------------------------+---------------------------------------------------------------+
-| Monday, 8. April 2024, 15:00-16:00       | Tutorial 6: Model Training, Evaluation & Deployment          |
+| Monday, 2. December 2024, 15:00-16:00    | Tutorial 7: Graph Neural Networks                             |
++------------------------------------------+---------------------------------------------------------------+
+| Monday, 9. December 2024, 15:00-16:00    | Tutorial 17: Self-Supervised Contrastive Learning with SimCLR |
 +------------------------------------------+---------------------------------------------------------------+
 
----
-
-How to Run the Notebooks
+How to run the notebooks
 ------------------------
 
-On this website, you will find the notebooks exported into an **HTML format**, allowing you to **browse through the tutorials**.  
-However, to gain hands-on experience, we highly recommend running them yourself.  
-There are three primary ways to execute the notebooks:
+On this website, you will find the notebooks exported into a HTML format so that you can read them from whatever device you prefer.
+However, we suggest that you also give them a try and run them yourself. There are three main ways of running the notebooks we recommend:
 
-- **1️⃣ Locally on CPU**:  
-  - Clone the repository:
-    ```bash
-    git clone https://github.com/bfortuno/Surgical-Phase-Recognition.git
-    cd Surgical-Phase-Recognition
-    pip install -r requirements.txt
-    ```
-  - Run Jupyter Notebook:
-    ```bash
-    jupyter notebook
-    ```
-  - All notebooks are **optimized to run on a standard laptop**.
+- **Locally on CPU**: All notebooks are stored on the github repository that also builds this website. You can find them here: https://github.com/phlippe/uvadlc_notebooks/tree/master/docs/tutorial_notebooks. The notebooks are designed so that you can execute them on common laptops without the necessity of a GPU. We provide pretrained models that are automatically downloaded when running the notebooks, or can manually be downloaded from this `Google Drive <https://drive.google.com/drive/folders/1SevzqrkhHPAifKEHo-gi7J-dVxifvs4c?usp=sharing>`_. The required disk space for the pretrained models and datasets is less than 1GB. To ensure that you have all the right python packages installed, we provide a conda environment in the `same repository <https://github.com/uvadlc/uvadlc_practicals_2020/blob/master/environment.yml>`_ (choose the CPU or GPU version depending on your system).
 
-- **2️⃣ Google Colab (Recommended for GPU Support)**:  
-  - Click on the **Google Colab badge** next to each notebook to open it in the cloud.
-  - Ensure **GPU support is enabled**:  
-    **Runtime → Change runtime type → Select "GPU"**.
-  - Notebooks run **independently** without requiring additional setup.
----
+- **Google Colab**: If you prefer to run the notebooks on a different platform than your own computer, or want to experiment with GPU support, we recommend using `Google Colab <https://colab.research.google.com/notebooks/intro.ipynb#recent=true>`_. Each notebook on this documentation website has a badge with a link to open it on Google Colab. Remember to enable GPU support before running the notebook (:code:`Runtime -> Change runtime type`). Each notebook can be executed independently, and doesn't require you to connect your Google Drive or similar. However, when closing the session, changes might be lost if you don't save it to your local computer or have copied the notebook to your Google Drive beforehand.
 
-Tutorial-Notebook Alignment
----------------------------
+Tutorial-Lecture alignment
+--------------------------
 
-These tutorials are aligned to **Deep Learning techniques applied to Surgical Phase Recognition**:
+We will discuss 7 of the tutorials in the course, spread across lectures to cover something from every area. You can align the tutorials with the lectures based on their topics. The list of tutorials in the Deep Learning 1 course is:
 
-- **Guide 1**: Python Basics for Deep Learning  
-- **Tutorial 1**: Image Processing with OpenCV  
-- **Tutorial 2**: CNNs for Surgical Phase Identification  
-- **Tutorial 3**: Recurrent Neural Networks (RNNs) & LSTMs for Surgical Sequences  
-- **Tutorial 4**: Transformers & Attention Mechanisms  
-- **Tutorial 5**: Model Training, Fine-tuning, and Evaluation  
-- **Tutorial 6**: Model Deployment & Real-time Inference  
+- Tutorial 1: Introduction to Python for AI: Numpy, Matplotlib, Pandas
 
-These topics ensure that learners **progressively build expertise** in applying **deep learning** to surgical data.
+Feedback, Questions or Contributions
+------------------------------------
 
----
+This is the first time we present these tutorials during the Deep Learning course. As with any other project, small bugs and issues are expected. We appreciate any feedback from students, whether it is about a spelling mistake, implementation bug, or suggestions for improvements/additions to the notebooks. Please use the following `link <https://forms.gle/kENuNvcCq3LzQWDA8>`_ to submit feedback, or feel free to reach out to me directly per mail (p dot lippe at uva dot nl), or grab me during any TA session.
 
-Feedback, Questions, or Contributions
---------------------------------------
+If you find the tutorials helpful and would like to cite them, you can use the following bibtex::
 
-This project is a **work in progress**, and improvements are continuously being made.  
-We encourage feedback and contributions!
-
-📌 **Ways to contribute:**
-- Report issues, typos, or bugs via [GitHub Issues](https://github.com/bfortuno/Surgical-Phase-Recognition/issues).
-- Suggest improvements or submit **pull requests**.
-- Contact me via email for further discussions.
-
-If you find these tutorials helpful and would like to cite them, use the following BibTeX reference:
-
-```bibtex
-@misc{fortuno2024surgical,
-   title        = {Surgical Phase Recognition Tutorials},
-   author       = {Benjamin I. Fortuno},
-   year         = 2024,
-   howpublished = {https://github.com/bfortuno/Surgical-Phase-Recognition}
-}
-
+   @misc{lippe2024uvadlc,
+      title        = {{Surgical Phase Recognition BSc Project}},
+      author       = {Benjamin I. Fortuno},
+      year         = 2025,
+      howpublished = {\url{https://surgical-phase-recognition.readthedocs.io/}}
+   }
 
 .. toctree::
    :caption: Project Noteboks
