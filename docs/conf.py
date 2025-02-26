@@ -17,12 +17,12 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'UvA DL Notebooks'
-copyright = '2022, Phillip Lippe'
-author = 'Phillip Lippe'
+project = 'Surgical Phase Recognition Project'
+copyright = '2025, Benjamin I. Fortuno'
+author = 'Benjamin I. Fortuno'
 
 # The full version, including alpha/beta/rc tags
-release = 'v1.2'
+release = 'v1.1'
 
 
 # -- General configuration ---------------------------------------------------
