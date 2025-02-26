@@ -91,30 +91,9 @@ If you find the tutorials helpful and would like to cite them, you can use the f
       howpublished = {\url{https://uvadlc-notebooks.readthedocs.io/en/latest/}}
    }
 
-
-.. .. toctree::
-..    :caption: Guides
-..    :maxdepth: 2
-
-..    tutorial_notebooks/guide2/Research_Projects
-..    tutorial_notebooks/guide3/Debugging_PyTorch
-
 .. toctree::
    :caption: Project Noteboks
    :maxdepth: 2
 
    tutorial_notebooks/tutorial1/python_basics
-   .. tutorial_notebooks/tutorial3/Activation_Functions
-   .. tutorial_notebooks/tutorial4/Optimization_and_Initialization
-   .. tutorial_notebooks/tutorial5/Inception_ResNet_DenseNet
-   .. tutorial_notebooks/tutorial6/Transformers_and_MHAttention
-   .. tutorial_notebooks/tutorial7/GNN_overview
-   .. tutorial_notebooks/tutorial8/Deep_Energy_Models
-   .. tutorial_notebooks/tutorial9/AE_CIFAR10
-   .. tutorial_notebooks/tutorial10/Adversarial_Attacks
-   .. tutorial_notebooks/tutorial11/NF_image_modeling
-   .. tutorial_notebooks/tutorial12/Autoregressive_Image_Modeling
-   .. tutorial_notebooks/tutorial15/Vision_Transformer
-   .. tutorial_notebooks/tutorial16/Meta_Learning
-   .. tutorial_notebooks/tutorial17/SimCLR
 
