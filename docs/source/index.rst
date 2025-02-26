@@ -20,3 +20,9 @@ Contents
 
    usage
    api
+
+.. toctree::
+   :caption: Notebooks
+   :maxdepth: 2
+
+   notebooks/01_python_basics.ipynb
