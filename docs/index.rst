@@ -84,5 +84,6 @@ If you find the tutorials helpful and would like to cite them, you can use the f
    :caption: Project Noteboks
    :maxdepth: 2
 
-   tutorial_notebooks/tutorial1/python_basics
+   tutorial_notebooks/tutorial1/python_basics_1
+   tutorial_notebooks/tutorial2/python_basics_2
 
