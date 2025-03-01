@@ -86,4 +86,5 @@ If you find the tutorials helpful and would like to cite them, you can use the f
 
    tutorial_notebooks/tutorial1/python_basics_1
    tutorial_notebooks/tutorial2/python_basics_2
+   tutorial_notebooks/tutorial3/pytorch_intro
 
