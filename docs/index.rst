@@ -41,7 +41,7 @@ The notebooks are introduced in **guided tutorial sessions**, where the **conten
 Grading and Learning Approach
 -----------------------------
 
-The notebooks are **not directly part of any graded assignments**, but students are encouraged to **experiment, modify, and extend them** to develop a **deeper understanding of model testing and evaluation**. The knowledge gained from these tutorials will be **highly relevant for the final project assessment**.
+The notebooks are **not directly part of any graded assignments**, but students are encouraged to **experiment, modify, and extend them** to develop a **deeper understanding of model testing and evaluation**. 
 
 Additional Resources
 --------------------
