@@ -19,9 +19,15 @@ Topics Covered
 
 Throughout this project, we explore topics such as:
 
+- **python basics** for data manipulation and visualization.
+- **Introduction to PyTorch** for building and training neural networks.
+- **Convolutional Neural Networks (CNNs)** for image classification.
+- **Recurrent Neural Networks (RNNs)** for sequential data processing.
+- **Attention mechanisms** for capturing temporal dependencies.
+- **Transfer learning** for leveraging pre-trained models.
+- **Data augmentation** for improving model generalization.
+- **Hyperparameter tuning** for optimizing model performance.
 - **Optimization techniques** for training deep learning models.
-- **Transformers and self-attention mechanisms** for sequence modeling.
-- **Graph Neural Networks (GNNs)** and their applications in surgical phase recognition.
 - **Model evaluation and performance benchmarking** using real-world surgical datasets.
 
 Practical Implementation
@@ -57,10 +63,7 @@ However, we suggest that you also give them a try and run them yourself. There a
 
 - **Google Colab**: If you prefer to run the notebooks on a different platform than your own computer, or want to experiment with GPU support, we recommend using `Google Colab <https://colab.research.google.com/notebooks/intro.ipynb#recent=true>`_. Each notebook on this documentation website has a badge with a link to open it on Google Colab. Remember to enable GPU support before running the notebook (:code:`Runtime -> Change runtime type`). Each notebook can be executed independently, and doesn't require you to connect your Google Drive or similar. However, when closing the session, changes might be lost if you don't save it to your local computer or have copied the notebook to your Google Drive beforehand.
 
-
 ------------------------------------
-
-This is the first time we present these tutorials during the Deep Learning course. As with any other project, small bugs and issues are expected. We appreciate any feedback from students, whether it is about a spelling mistake, implementation bug, or suggestions for improvements/additions to the notebooks. Please use the following `link <https://forms.gle/kENuNvcCq3LzQWDA8>`_ to submit feedback, or feel free to reach out to me directly per mail (p dot lippe at uva dot nl), or grab me during any TA session.
 
 If you find the tutorials helpful and would like to cite them, you can use the following bibtex::
 
