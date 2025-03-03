@@ -9,9 +9,6 @@ Welcome to the Surgical Phase Recognition Project!
 | *Repository*: https://github.com/bfortuno/Surgical-Phase-Recognition
 | *Author*: Benjamin I. Fortuno
 
-BSc Project: Jupyter Notebooks for Neural Network Evaluation in Surgical Phase Recognition
-==========================================================================================
-
 As part of this **BSc project**, we have created a structured series of **Jupyter notebooks** designed to guide students through the **testing and evaluation of neural networks for surgical phase recognition**. These tutorials provide a **hands-on approach** to understanding key deep learning concepts through **practical implementation**.
 
 Topics Covered
