@@ -9,45 +9,43 @@ Welcome to the Surgical Phase Recognition Project!
 | *Repository*: https://github.com/bfortuno/Surgical-Phase-Recognition
 | *Author*: Benjamin I. Fortuno
 
+BSc Project: Jupyter Notebooks for Neural Network Evaluation in Surgical Phase Recognition
+==========================================================================================
+
 As part of this **BSc project**, we have created a structured series of **Jupyter notebooks** designed to guide students through the **testing and evaluation of neural networks for surgical phase recognition**. These tutorials provide a **hands-on approach** to understanding key deep learning concepts through **practical implementation**.
 
-Throughout this project, we will explore topics such as:
+Topics Covered
+--------------
+
+Throughout this project, we explore topics such as:
+
 - **Optimization techniques** for training deep learning models.
 - **Transformers and self-attention mechanisms** for sequence modeling.
 - **Graph Neural Networks (GNNs)** and their applications in surgical phase recognition.
-- **Model evaluation and performance benchmarking** in real-world surgical datasets.
+- **Model evaluation and performance benchmarking** using real-world surgical datasets.
+
+Practical Implementation
+------------------------
 
 Each notebook is designed to **complement theoretical knowledge** by demonstrating **real-world implementations** using **PyTorch** and **PyTorch Lightning**. These materials serve as a foundation for students to **analyze, test, and optimize different neural architectures** for surgical phase recognition.
 
 The notebooks are introduced in **guided tutorial sessions**, where the **content and implementation details** are explained step by step. Students can choose to:
-- Simply **review the pre-filled notebooks** for theoretical understanding.
+
+- **Review the pre-filled notebooks** for theoretical understanding.
 - **Modify and experiment** with different configurations and training setups.
 - **Code along during sessions** to gain practical experience.
 
+Grading and Learning Approach
+-----------------------------
+
 The notebooks are **not directly part of any graded assignments**, but students are encouraged to **experiment, modify, and extend them** to develop a **deeper understanding of model testing and evaluation**. The knowledge gained from these tutorials will be **highly relevant for the final project assessment**.
 
-Additionally, these tutorials integrate **best practices from PyTorch Lightning**, making it easier to **train, validate, and deploy models efficiently**. More information about PyTorch Lightning can be found in **[their official documentation](https://pytorch-lightning.readthedocs.io/en/latest/)**.
+Additional Resources
+--------------------
 
-Schedule (Deep Learning 1, edition 2024)
-----------------------------------------
+These tutorials integrate **best practices from PyTorch Lightning**, making it easier to **train, validate, and deploy models efficiently**. More information about PyTorch Lightning can be found in their official documentation:
 
-+------------------------------------------+---------------------------------------------------------------+
-| **Date**                                 | **Notebook**                                                  |
-+------------------------------------------+---------------------------------------------------------------+
-| Tuesday, 29. October 2024, 09:00-10:00   | Tutorial 2: Introduction to PyTorch                           |
-+------------------------------------------+---------------------------------------------------------------+
-| Monday, 4. November 2024, 15:00-16:00    | Tutorial 3: Activation functions                              |
-+------------------------------------------+---------------------------------------------------------------+
-| Monday, 11. November 2024, 15:00-16:00   | Tutorial 4: Optimization and Initialization                   |
-+------------------------------------------+---------------------------------------------------------------+
-| Monday, 18. November 2024, 15:00-16:00   | Tutorial 5: Inception, ResNet and DenseNet                    |
-+------------------------------------------+---------------------------------------------------------------+
-| Monday, 25. November 2024, 15:00-16:00   | Tutorial 6: Transformers and Multi-Head Attention             |
-+------------------------------------------+---------------------------------------------------------------+
-| Monday, 2. December 2024, 15:00-16:00    | Tutorial 7: Graph Neural Networks                             |
-+------------------------------------------+---------------------------------------------------------------+
-| Monday, 9. December 2024, 15:00-16:00    | Tutorial 17: Self-Supervised Contrastive Learning with SimCLR |
-+------------------------------------------+---------------------------------------------------------------+
+`PyTorch Lightning Documentation <https://pytorch-lightning.readthedocs.io/en/latest/>`_
 
 How to run the notebooks
 ------------------------
@@ -59,14 +57,7 @@ However, we suggest that you also give them a try and run them yourself. There a
 
 - **Google Colab**: If you prefer to run the notebooks on a different platform than your own computer, or want to experiment with GPU support, we recommend using `Google Colab <https://colab.research.google.com/notebooks/intro.ipynb#recent=true>`_. Each notebook on this documentation website has a badge with a link to open it on Google Colab. Remember to enable GPU support before running the notebook (:code:`Runtime -> Change runtime type`). Each notebook can be executed independently, and doesn't require you to connect your Google Drive or similar. However, when closing the session, changes might be lost if you don't save it to your local computer or have copied the notebook to your Google Drive beforehand.
 
-Tutorial-Lecture alignment
---------------------------
 
-We will discuss 7 of the tutorials in the course, spread across lectures to cover something from every area. You can align the tutorials with the lectures based on their topics. The list of tutorials in the Deep Learning 1 course is:
-
-- Tutorial 1: Introduction to Python for AI: Numpy, Matplotlib, Pandas
-
-Feedback, Questions or Contributions
 ------------------------------------
 
 This is the first time we present these tutorials during the Deep Learning course. As with any other project, small bugs and issues are expected. We appreciate any feedback from students, whether it is about a spelling mistake, implementation bug, or suggestions for improvements/additions to the notebooks. Please use the following `link <https://forms.gle/kENuNvcCq3LzQWDA8>`_ to submit feedback, or feel free to reach out to me directly per mail (p dot lippe at uva dot nl), or grab me during any TA session.
