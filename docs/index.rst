@@ -80,4 +80,5 @@ If you find the tutorials helpful and would like to cite them, you can use the f
    tutorial_notebooks/tutorial3/pytorch_intro
    tutorial_notebooks/tutorial4/misaw_data_processing_sol
    tutorial_notebooks/tutorial5/mnist_cnn
+   tutorial_notebooks/tutorial6/misaw_cnn
 
